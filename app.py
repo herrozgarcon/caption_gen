@@ -56,7 +56,7 @@ def apply_filter(img, filter_type):
     return img
 
 # UI
-st.title("📸 AI Instagram Caption + Filter Generator")
+st.title("📸 AI Image Caption + Filter Generator")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 style = st.selectbox("Choose style", ["aesthetic", "funny", "romantic", "motivational", "travel", "food", "animal"])
